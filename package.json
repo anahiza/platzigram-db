@@ -1,0 +1,19 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "Platzigram Database Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard":{
+    "parser":"babel-eslint"
+  },
+  "author": "anahi.z.a@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "standard": "^8.5.0"
+  }
+}
