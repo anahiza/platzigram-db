@@ -1,9 +1,0 @@
-
-> platzigram-db@1.0.0 test E:\Users\Desarrollo\Documents\GitHub\platzigram-db
-> npm run lint && ava
-
-
-> platzigram-db@1.0.0 lint E:\Users\Desarrollo\Documents\GitHub\platzigram-db
-> standard
-
-[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25l[?25h

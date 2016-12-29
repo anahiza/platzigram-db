@@ -1,0 +1,25 @@
+2016-12-28T19:24:39.962551687 11.583955s notice: Recursively removing directory /home/anahi/Documents/Git/platzigram-db/rethinkdb_data/tmp
+2016-12-28T19:24:39.987921276 11.609325s notice: Initializing directory /home/anahi/Documents/Git/platzigram-db/rethinkdb_data
+2016-12-28T19:24:39.988020549 11.609424s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/anahi/Documents/Git/platzigram-db/rethinkdb_data' did not already exist or is empty.)
+2016-12-28T19:24:39.988049736 11.609453s notice: Running rethinkdb 2.3.5~0xenial (GCC 5.3.1)...
+2016-12-28T19:24:39.991173467 11.612579s notice: Running on Linux 4.4.0-53-generic x86_64
+2016-12-28T19:24:39.991224526 11.612628s notice: Loading data from directory /home/anahi/Documents/Git/platzigram-db/rethinkdb_data
+2016-12-28T19:24:40.224302083 11.845705s info: Automatically using cache size of 2543 MB
+2016-12-28T19:24:40.224731738 11.846135s notice: Listening for intracluster connections on port 29015
+2016-12-28T19:24:40.225609858 11.847013s notice: Listening for client driver connections on port 28015
+2016-12-28T19:24:40.225749709 11.847153s notice: Listening for administrative HTTP connections on port 8080
+2016-12-28T19:24:40.225752879 11.847156s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T19:24:40.225755306 11.847158s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T19:24:40.225757086 11.847160s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2016-12-28T19:24:40.225759648 11.847163s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-12-28T19:24:40.225762171 11.847165s notice: Server ready, "anahi_Inspiron_7348_zx5" 0d43d4e0-b6f2-44fc-8690-da8427f5b1aa
+2016-12-28T19:48:24.511521949 1435.711038s info: Table 22a83e10-cc81-4a52-9805-cd865471d407: Added replica on this server.
+2016-12-28T19:48:24.511547691 1435.711063s info: Table 22a83e10-cc81-4a52-9805-cd865471d407: Starting a new Raft election for term 1.
+2016-12-28T19:48:24.552894861 1435.752411s info: Table 22a83e10-cc81-4a52-9805-cd865471d407: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T19:48:25.886235931 1437.085752s info: Table 8fd3f12f-b3a2-4027-98dd-6c189cf450a5: Starting a new Raft election for term 1.
+2016-12-28T19:48:25.886475976 1437.085992s info: Table 8fd3f12f-b3a2-4027-98dd-6c189cf450a5: Added replica on this server.
+2016-12-28T19:48:25.930951043 1437.130467s info: Table 8fd3f12f-b3a2-4027-98dd-6c189cf450a5: This server is Raft leader for term 1. Latest log index is 0.
+2016-12-28T19:48:26.858289590 1438.057805s notice: Removing file /home/anahi/Documents/Git/platzigram-db/rethinkdb_data/22a83e10-cc81-4a52-9805-cd865471d407
+2016-12-28T19:48:26.858295829 1438.057811s info: Table 22a83e10-cc81-4a52-9805-cd865471d407: Deleted the table.
+2016-12-28T19:48:26.899413264 1438.098929s notice: Removing file /home/anahi/Documents/Git/platzigram-db/rethinkdb_data/8fd3f12f-b3a2-4027-98dd-6c189cf450a5
+2016-12-28T19:48:26.899419533 1438.098935s info: Table 8fd3f12f-b3a2-4027-98dd-6c189cf450a5: Deleted the table.
