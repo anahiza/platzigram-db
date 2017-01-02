@@ -42,7 +42,7 @@ test('save image', async t => {
 test('like image', async t => {
   t.is(typeof db.likeImage, 'function', 'likeImage is a function')
   let image = fixtures.getImage()
-  let created = await db.saveImage()
+  let created = await db.saveImage(image)
   let result = await db.likeImage(created.public_id)
   t.true(result.liked)
   t.is(result.likes, image.likes + 1)
