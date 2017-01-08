@@ -103,6 +103,6 @@ test('authenticate user', async t => {
   t.true(success)
   let fail = await db.authenticate(user.username, 'foo')
   t.false(fail)
-  let falilure = await db.authenticate('foo', 'bar')
+  let failure = await db.authenticate('foo', 'bar')
   t.false(failure)
 })
